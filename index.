@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Favorite Travel Destinations</title>
+</head>
+
+<body>
+    <main>
+        <h1>Top 3 Favorite Travel Destinations</h1>
+
+        <section>
+            <h2>1. Kyoto, Japan</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Kiyomizu-dera_2017.jpg"
+                alt="Kiyomizu-dera temple in Kyoto, Japan" width="400">
+            <p>Kyoto is known for its beautiful temples, traditional wooden houses, and cherry blossoms.</p>
+        </section>
+
+        <section>
+            <h2>2. Paris, France</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg"
+                alt="Eiffel Tower in Paris" width="400">
+            <p>The city of lights is famous for its art, architecture, and delicious cuisine.</p>
+        </section>
+
+        <section>
+            <h2>3. New York City, USA</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Manhattan3_amk.jpg"
+                alt="Skyline of Manhattan in New York City" width="400">
+            <p>New York is known for Times Square, Central Park, and the Statue of Liberty.</p>
+        </section>
+
+        <article>
+            <h2>Top Reasons to Travel</h2>
+            <ul>
+                <li>Learn about new cultures</li>
+                <li>Try different cuisines</li>
+                <li>Meet new people</li>
+            </ul>
+        </article>
+
+        <p>For more travel tips, visit <a href="https://www.lonelyplanet.com/" target="_blank">Lonely Planet</a>.</p>
+    </main>
+</body>
+
+</html>
