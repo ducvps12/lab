@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Only track Java source files
+!src/
+!src/bubblesort/
+!src/bubblesort/BubbleSort.java
+
+# Keep gitignore itself
+!.gitignore
