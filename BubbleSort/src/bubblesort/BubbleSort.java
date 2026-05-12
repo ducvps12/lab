@@ -43,7 +43,7 @@ public class BubbleSort {
         int size;
         // Loop: Keep looping until the user enters a valid positive integer
         while (true) {
-            System.out.print("Enter number of array: ");
+            System.out.println("Enter number of array: ");
             try {
                 size = Integer.parseInt(scanner.nextLine().trim());
                 // Condition: Check if size is greater than 0
