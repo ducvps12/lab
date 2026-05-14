@@ -3,8 +3,12 @@
 
 # Only track Java source files
 !src/
-!src/bubblesort/
-!src/bubblesort/BubbleSort.java
+!src/ui/
+!src/ui/Main.java
+!src/entity/
+!src/entity/BubbleSortArray.java
+!src/utils/
+!src/utils/InputValidator.java
 
 # Keep gitignore itself
 !.gitignore
