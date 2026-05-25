@@ -3,12 +3,12 @@
 
 # Only track Java source files
 !src/
-!src/ui/
-!src/ui/Main.java
-!src/entity/
-!src/entity/BubbleSortArray.java
+!src/array/
+!src/array/Array.java
+!src/main/
+!src/main/Main.java
 !src/utils/
-!src/utils/InputValidator.java
+!src/utils/Validator.java
 
 # Keep gitignore itself
 !.gitignore
