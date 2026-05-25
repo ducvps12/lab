@@ -10,5 +10,6 @@
 !src/utils/
 !src/utils/Validator.java
 
-# Keep gitignore itself
+# Keep gitignore and README
 !.gitignore
+!README.md
