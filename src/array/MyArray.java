@@ -57,10 +57,9 @@ public class MyArray {
         }
     }
 
-    public void printArray() {
+    public void printArray() throws Exception {
         if (a == null) {
-            System.out.println("null");
-            return;
+            throw new Exception("Can't be null");
         }
         System.out.print("[");
         for (int i = 0; i < a.length; i++) {
