@@ -19,8 +19,9 @@
 - `main` throws Exception
 
 ### 3. Null check & Exception
-- Các method xử lý dữ liệu nên check null trước khi thao tác
-- Dùng `throws Exception` khi cần validate đầu vào
+- Các method xử lý dữ liệu nên check null trước khi thao tác.
+- Dùng `throws Exception` khi cần validate đầu vào.
+- **Đặc biệt:** Phương thức hiển thị dữ liệu (`printArray()`) cũng nên `throw new Exception` thay vì chỉ in "null" hoặc return (Ví dụ: `throw new Exception("Can't be null")`).
 
 ---
 
