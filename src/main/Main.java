@@ -5,7 +5,7 @@
  */
 package main;
 
-import array.Array;
+import array.MyArray;
 import utils.Validator;
 
 /**
@@ -14,24 +14,19 @@ import utils.Validator;
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        int number = Validator.getInt("Enter number of array: ", 
+    public static void main(String[] args) throws Exception {
+        int number = Validator.getInput("Enter number of array: ",
                 "Error range(number>0)", "Invalid!", 1, Integer.MAX_VALUE);
-        Array array = new Array(number);
-        System.out.print("Unsorted array:");
-        System.out.println(array.toString());
+        MyArray array = new MyArray(number);
+        System.out.println("Unsorted array:");
+        array.printArray();
         try {
-            array.bubbleSort(true);
-        } catch (IllegalArgumentException e) {
-            System.out.println("SORT FAIL!");
+            array.sortArray();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
             return;
         }
-        System.out.print("Sorted array:");
-        System.out.println(array.toString());
+        System.out.println("Sorted array:");
+        array.printArray();
     }
-    
 }

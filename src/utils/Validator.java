@@ -12,25 +12,25 @@ import java.util.Scanner;
  * @author Precision 5530
  */
 public class Validator {
+
     private static final Scanner SCANNER = new Scanner(System.in);
 
     private Validator() {
-
     }
 
-    public static int getInt(String messageInfo, String messsageErrorOutOfRange,
-            String messageErrorNumber, int min, int max) {
+    public static int getInput(String Inputmsg, String OutOfRangemsg,
+            String InvalidFormatmsg, int min, int max) {
         do {
             try {
-                System.out.print(messageInfo);
+                System.out.println(Inputmsg);
                 int number = Integer.parseInt(SCANNER.nextLine());
                 if (number >= min && number <= max) {
                     return number;
                 } else {
-                    System.out.println(messsageErrorOutOfRange);
+                    System.out.println(OutOfRangemsg);
                 }
             } catch (NumberFormatException e) {
-                System.out.println(messageErrorNumber);
+                System.out.println(InvalidFormatmsg);
             }
         } while (true);
     }

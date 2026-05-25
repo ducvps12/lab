@@ -4,7 +4,7 @@
 # Only track Java source files
 !src/
 !src/array/
-!src/array/Array.java
+!src/array/MyArray.java
 !src/main/
 !src/main/Main.java
 !src/utils/
